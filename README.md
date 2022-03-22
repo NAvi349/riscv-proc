@@ -15,6 +15,13 @@
 # Critical Path
   <image src = "https://github.com/NAvi349/riscv-proc/blob/main/images/critical%20path.png">
     
+# Tools Used
+  <ol>
+    <li> Intel Quartus Prime Lite</li>
+    <li> VS Code</li>
+    <li> Online RISC - V Assembler - <a href = "https://riscvasm.lucasteske.dev/#"> </li>
+  </ol>
+    
 # References
    [1]  Digital Design and Computer Architecture RISC-V Edition by Sarah Harris, David Harris 
     </br>

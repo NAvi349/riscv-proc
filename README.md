@@ -23,7 +23,7 @@
   </ol>
     
 # RTL View
-    <img src ="">
+    <img src ="https://github.com/NAvi349/riscv-proc/blob/main/images/RTL%20View.png">
     
 # References
    [1]  Digital Design and Computer Architecture RISC-V Edition by Sarah Harris, David Harris 

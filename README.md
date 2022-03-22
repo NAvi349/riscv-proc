@@ -9,7 +9,7 @@
 </ul>
 
 # Microarchitecture
-  Diagram is created using draw.io software.
+  Diagram was created using draw.io software.
 <image src = "https://github.com/NAvi349/riscv-proc/blob/main/images/Microarchitecture.png">
   
 # Critical Path

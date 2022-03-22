@@ -10,10 +10,10 @@
 
 # Microarchitecture
   Diagram was created using draw.io software.
-<image src = "https://github.com/NAvi349/riscv-proc/blob/main/images/Microarchitecture.png">
+<img src = "https://github.com/NAvi349/riscv-proc/blob/main/images/Microarchitecture.png">
   
 # Critical Path
-  <image src = "https://github.com/NAvi349/riscv-proc/blob/main/images/critical%20path.png">
+  <img src = "https://github.com/NAvi349/riscv-proc/blob/main/images/critical%20path.png">
     
 # Tools Used
   <ol>
@@ -23,7 +23,7 @@
   </ol>
     
 # RTL View
-    <image src = "https://github.com/NAvi349/riscv-proc/blob/main/images/RTL%20View.png">
+  <img src = "https://github.com/NAvi349/riscv-proc/blob/main/images/RTL%20View.png">
     
 # References
    [1]  Digital Design and Computer Architecture RISC-V Edition by Sarah Harris, David Harris 

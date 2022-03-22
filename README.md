@@ -9,10 +9,15 @@
 </ul>
 
 # Microarchitecture
-  This Microarchitecture created using draw.io software.
-<image src = "https://github.com/NAvi349/riscv-proc/blob/main/images/Pipelined%20Schematic.drawio.png">
+  Diagram is created using draw.io software.
+<image src = "https://github.com/NAvi349/riscv-proc/blob/main/images/Microarchitecture.png">
   
 # Critical Path
   <image src = "https://github.com/NAvi349/riscv-proc/blob/main/images/critical%20path.png">
+    
+# References
+   [1]  Digital Design and Computer Architecture RISC-V Edition by Sarah Harris, David Harris 
+    </br>
+   [2]  Computer Organization and Design The Hardware Software Interface [RISC-V Edition] by David A. Patterson, John L. Hennessy
 
 

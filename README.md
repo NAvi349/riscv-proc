@@ -1,5 +1,5 @@
 # Description
-  This repository contains the files of a 32-bit RISC - V Core. 
+  This repository contains the files of a 32-bit RISC - V Core. This is done as part of the excerise given in Harris and Harris Computer Architecture textbook._
 # Features:
 <ul>
   <li> 32-bit Instruction Format </li>

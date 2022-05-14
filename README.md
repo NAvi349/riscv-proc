@@ -16,7 +16,7 @@
   <img src = "https://github.com/NAvi349/riscv-proc/blob/main/images/critical%20path.png">
 
 # Calculation of Max. Frequency
-![image] (https://user-images.githubusercontent.com/66086031/168416273-65580b88-323b-408d-be84-459795672e54.png)
+![image](https://user-images.githubusercontent.com/66086031/168416273-65580b88-323b-408d-be84-459795672e54.png)
 
 
 # Tools Used

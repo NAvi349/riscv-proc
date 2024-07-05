@@ -2,9 +2,6 @@
 	Name: Pipeline register between Memory Access and WriteBack Stage
 */
 
-
-
-
 module IMem_IW (input logic clk, reset,
                 input logic [31:0] ALUResultM, ReadDataM,  
                 input logic [4:0] RdM, 

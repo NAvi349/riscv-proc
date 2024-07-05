@@ -24,8 +24,6 @@ logic lwStall;
             ForwardAE = 2'b10; // for forwarding ALU Result in Memory Stage
         else if ((Rs1E == RdW) & (RegWriteW) & (Rs1E != 0))
             ForwardAE = 2'b01; // for forwarding WriteBack Stage Result
-                    
-
 
         if ((Rs2E == RdM) & (RegWriteM) & (Rs2E != 0))
             ForwardBE = 2'b10; // for forwarding ALU Result in Memory Stage

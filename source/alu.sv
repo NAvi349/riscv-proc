@@ -4,7 +4,6 @@
 	Description: Receives control signals from the ALU Decoder and performs the operations
 */
 
-
 module alu(input logic [31:0] SrcA, 
 			input logic [31:0] SrcB, 
 			input logic [3:0] ALUControl , 
@@ -23,7 +22,7 @@ assign Sign = ALUResult[31];
 
 always_comb
 		casex (ALUControl)
-				4'b000x: ALUResult = Sum;				// sum or diff
+				4'b000x: ALUResult = Sum;			// sum or diff
 				4'b0010: ALUResult = SrcA & SrcB;	// and
 				4'b0011: ALUResult = SrcA | SrcB;	// or
 				4'b0100: ALUResult = SrcA << SrcB;	// sll, slli
@@ -35,7 +34,5 @@ always_comb
 				default: ALUResult = 32'bx;
 		endcase
 
-
 endmodule
-		
 	

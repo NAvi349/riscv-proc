@@ -1,27 +1,16 @@
 module testbench();
-	logic clk, reset, MemWrite;
-	logic [31:0] WriteData, DataAdr;
 
-	top dut(clk, reset, WriteData, DataAdr, MemWrite);
+	logic clk, reset;
+
+	top u_top(clk, reset);
 	
-	initial
-		begin
-			reset <= 1; 
-			# 100; 
-			reset <= 0;
-			
-			$display("Simulation starts!");
-			$monitor("Value of ALU = %d", DataAdr);
-		end
+	initial begin
+		clk = 1;
+		reset <= 1; 
+		# 100; 
+		reset <= 0;
+	end
+
+	always #5 clk = ~clk;
 	
-
-
-	always
-		begin
-			clk <= 1; 
-			# 5; clk <= 0; # 5;
-		end
-		 
-	
-
 endmodule
